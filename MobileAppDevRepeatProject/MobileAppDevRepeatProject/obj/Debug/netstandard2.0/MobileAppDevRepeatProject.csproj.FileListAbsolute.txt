@@ -1,0 +1,16 @@
+C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject\bin\Debug\netstandard2.0\MobileAppDevRepeatProject.deps.json
+C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject\bin\Debug\netstandard2.0\MobileAppDevRepeatProject.dll
+C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject\bin\Debug\netstandard2.0\MobileAppDevRepeatProject.pdb
+C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
+C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject\obj\Debug\netstandard2.0\MobileAppDevRepeatProject.csproj.CoreCompileInputs.cache
+C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject\obj\Debug\netstandard2.0\MobileAppDevRepeatProject.AssemblyInfoInputs.cache
+C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject\obj\Debug\netstandard2.0\MobileAppDevRepeatProject.AssemblyInfo.cs
+C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject\obj\Debug\netstandard2.0\MobileAppDevRepeatProject.dll
+C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject\obj\Debug\netstandard2.0\MobileAppDevRepeatProject.pdb

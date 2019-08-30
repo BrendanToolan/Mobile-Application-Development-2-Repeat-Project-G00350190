@@ -1,0 +1,1 @@
+C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject.UWP\MobileAppDevRepeatProject.UWP.csproj;x86
