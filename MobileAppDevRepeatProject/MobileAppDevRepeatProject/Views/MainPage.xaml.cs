@@ -16,7 +16,7 @@ namespace MobileAppDevRepeatProject.Views
 
             MasterBehavior = MasterBehavior.Popover;
 
-            MenuPages1.Add((int)MenuItemType.Browse, (NavigationPage)Detail);
+            MenuPages1.Add((int)MenuItemType.Home, (NavigationPage)Detail);
         }
 
         public Dictionary<int, NavigationPage> MenuPages1 { get; set; } = new Dictionary<int, NavigationPage>();
@@ -27,11 +27,14 @@ namespace MobileAppDevRepeatProject.Views
             {
                 switch (id)
                 {
-                    case (int)MenuItemType.Browse:
+                    case (int)MenuItemType.Home:
                         MenuPages1.Add(id, new NavigationPage(new ItemsPage()));
                         break;
                     case (int)MenuItemType.About:
                         MenuPages1.Add(id, new NavigationPage(new AboutPage()));
+                        break;
+                    case (int)MenuItemType.Contact:
+                        MenuPages1.Add(id, new NavigationPage(new ContactPage()));
                         break;
                 }
             }

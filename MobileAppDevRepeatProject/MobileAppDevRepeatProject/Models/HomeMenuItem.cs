@@ -6,8 +6,9 @@ namespace MobileAppDevRepeatProject.Models
 {
     public enum MenuItemType
     {
-        Browse,
-        About
+        Home,
+        About,
+        Contact
     }
     public class HomeMenuItem
     {
