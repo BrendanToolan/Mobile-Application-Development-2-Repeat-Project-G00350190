@@ -56,3 +56,4 @@ C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\
 C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject.iOS\obj\iPhone\Debug\MobileAppDevRepeatProject.iOS.csproj.CopyComplete
 C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject.iOS\obj\iPhone\Debug\MobileAppDevRepeatProject.iOS.exe
 C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject.iOS\obj\iPhone\Debug\MobileAppDevRepeatProject.iOS.pdb
+C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject.iOS\bin\iPhone\Debug\MobileAppDevRepeatProject.dll.mdb
