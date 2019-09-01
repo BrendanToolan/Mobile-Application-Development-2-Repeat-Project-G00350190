@@ -27,15 +27,15 @@ namespace MobileAppDevRepeatProject.Views
             {
                 switch (id)
                 {
+
+                    case (int)MenuItemType.HomeInfoPage:
+                        MenuPages1.Add(id, new NavigationPage(new HomeInfoPage()));
+                        break;
                     case (int)MenuItemType.Home:
                         MenuPages1.Add(id, new NavigationPage(new ItemsPage()));
                         break;
-                    case (int)MenuItemType.About:
-                        MenuPages1.Add(id, new NavigationPage(new AboutPage()));
-                        break;
-                    case (int)MenuItemType.Contact:
-                        MenuPages1.Add(id, new NavigationPage(new ContactPage()));
-                        break;
+
+                    
                 }
             }
 

@@ -2,7 +2,6 @@ C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\
 C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject\bin\Debug\netstandard2.0\MobileAppDevRepeatProject.dll
 C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject\bin\Debug\netstandard2.0\MobileAppDevRepeatProject.pdb
 C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
 C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
 C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
 C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
@@ -14,5 +13,5 @@ C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\
 C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject\obj\Debug\netstandard2.0\MobileAppDevRepeatProject.dll
 C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject\obj\Debug\netstandard2.0\MobileAppDevRepeatProject.pdb
 C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject\obj\Debug\netstandard2.0\MobileAppDevRepeatProject.csprojAssemblyReference.cache
-C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject\obj\Debug\netstandard2.0\Views\ContactPage.xaml.g.cs
 C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject\obj\Debug\netstandard2.0\Views\HomeInfoPage.xaml.g.cs
