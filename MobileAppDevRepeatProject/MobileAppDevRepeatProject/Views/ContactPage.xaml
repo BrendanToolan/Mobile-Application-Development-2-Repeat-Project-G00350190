@@ -26,10 +26,14 @@
                     <x:String>England</x:String>
                     <x:String>France</x:String>
                     <x:String>Italy</x:String>
+                    <x:String>Ireland</x:String>
+                    <x:String>Germany</x:String>
+                    <x:String>Netherlands</x:String>
                 </x:Array>
             </Picker.ItemsSource>
         </Picker>
-        <Label Text="N/A" x:Name="countryLabel"/>
+        <Label Text="" x:Name="countryLabel"/>
+        <Label Text="" x:Name="countryLabelLeader"/>
 
        <!-- <Picker x:Name="pickerCity"
                 Title="Pick a City"

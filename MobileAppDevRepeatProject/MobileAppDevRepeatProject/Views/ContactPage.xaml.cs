@@ -28,6 +28,9 @@ namespace MobileAppDevRepeatProject.Views
             countryList.Add("England");
             countryList.Add("France");
             countryList.Add("Italy");
+            countryList.Add("Ireland");
+            countryList.Add("Germany");
+            countryList.Add("Netherlands");
 
             var picker = new Picker { Title = "Pick a Country", TextColor = Color.BlueViolet, FontSize=25};
             picker.ItemsSource = countryList;
@@ -49,10 +52,6 @@ namespace MobileAppDevRepeatProject.Views
                 }
 
             }
-            
-
-           
-
 
         }
 
@@ -77,15 +76,20 @@ namespace MobileAppDevRepeatProject.Views
             int index = picker.SelectedIndex;
             if(index == 0)
             {
-                countryLabel.Text = "America";
+                
+                countryLabel.Text = "Country Name - America";
+                countryLabelLeader.Text = "Leader - President Donald J Trump";
+                
             }
             if (index == 1)
             {
-                countryLabel.Text = "England";
+                countryLabel.Text = "Country Name England";
+                countryLabelLeader.Text = "Leader - Prime Miniser Boris Johnson";
             }
             if (index == 2)
             {
-                countryLabel.Text = "France";
+                countryLabel.Text = "Country Name - France";
+                countryLabelLeader.Text = "Leader - President Emmanuel Macron";
             }
         }
     }
