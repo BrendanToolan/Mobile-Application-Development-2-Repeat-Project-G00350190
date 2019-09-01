@@ -5,23 +5,30 @@
              xmlns:vm="clr-namespace:MobileAppDevRepeatProject.ContactModels"
              Title="Contact Page">
 
-
-    <ContentPage.Content>
-        <StackLayout>
-
-            <Picker x:Name="picker"
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="add" Clicked="AddItem_Clicked">
+            <ToolbarItem.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource">
+                    <On Platform="UWP" Value="add.png"/>
+                </OnPlatform>
+            </ToolbarItem.Icon>
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+    
+    
+    <StackLayout>
+        <Picker x:Name="picker"
                     Title="Pick a Country"
                     TextColor="BlueViolet">
-                <Picker.ItemsSource>
-                    <x:Array Type="{x:Type x:String}">
-                        <x:String>America</x:String>
-                        <x:String>England</x:String>
-                        <x:String>France</x:String>
-                        <x:String>Italy</x:String>
-                    </x:Array>
-                </Picker.ItemsSource>
-            </Picker>
-           
-        </StackLayout>
-    </ContentPage.Content>
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>America</x:String>
+                    <x:String>England</x:String>
+                    <x:String>France</x:String>
+                    <x:String>Italy</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+    </StackLayout>
+       
 </ContentPage>
