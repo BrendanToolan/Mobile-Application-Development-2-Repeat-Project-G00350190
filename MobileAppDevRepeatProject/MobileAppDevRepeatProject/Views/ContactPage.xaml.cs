@@ -91,6 +91,28 @@ namespace MobileAppDevRepeatProject.Views
                 countryLabel.Text = "Country Name - France";
                 countryLabelLeader.Text = "Leader - President Emmanuel Macron";
             }
+            if (index == 3)
+            {
+                countryLabel.Text = "Country Name - Italy";
+                countryLabelLeader.Text = "Sergio Mattarella";
+            }
+            if (index == 4)
+            {
+                countryLabel.Text = "Country Name - Ireland";
+                countryLabelLeader.Text = "Leader - Taoisearch Leo Varadkar";
+
+            }
+            if (index == 5)
+            {
+                countryLabel.Text = "Country Name - Germany";
+                countryLabelLeader.Text = "Leader - Chancellor Angela Merkel";
+
+            }
+            if(index == 6)
+            {
+                countryLabel.Text = "Country Name - Netherlands";
+                countryLabelLeader.Text = "Leader - Prime Minister Mark Rutte";
+            }
         }
     }
 

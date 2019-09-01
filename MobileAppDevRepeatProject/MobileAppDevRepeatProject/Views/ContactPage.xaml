@@ -34,8 +34,9 @@
         </Picker>
         <Label Text="" x:Name="countryLabel"/>
         <Label Text="" x:Name="countryLabelLeader"/>
+        <Label Text="" x:Name="NotableLandmarksLabel" />
 
-       <!-- <Picker x:Name="pickerCity"
+        <!-- <Picker x:Name="pickerCity"
                 Title="Pick a City"
                 TextColor="BlueViolet">
             <Picker.ItemsSource>
