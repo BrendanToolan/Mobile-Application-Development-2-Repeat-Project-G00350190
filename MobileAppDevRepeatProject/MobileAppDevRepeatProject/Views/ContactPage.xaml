@@ -31,6 +31,23 @@
         </Picker>
         <Label Text="{Binding Source={x:Reference picker}, Path=SelectedItem}"/>
 
+        <Picker x:Name="pickerCity"
+                Title="Pick a City"
+                TextColor="BlueViolet">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>New York</x:String>
+                    <x:String>Texas</x:String>
+                    <x:String>Washington</x:String>
+                    <x:String>Seattle</x:String>
+                    <x:String>London</x:String>
+                    <x:String>Manchester</x:String>
+                    <x:String>Liverpool</x:String>
+                    <x:String>Newcastle</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+
     </StackLayout>
        
 </ContentPage>

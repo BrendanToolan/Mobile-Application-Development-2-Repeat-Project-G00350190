@@ -47,10 +47,41 @@ namespace MobileAppDevRepeatProject.Views
                 {
                     countryNameLabel.Text = NewMethod(picker, selectedItem);
                 }
+
+            }
+            if (selectedIndex == 0)
+            {
+                var usaCityList = new List<string>();
+                usaCityList.Add("New York");
+                usaCityList.Add("Texas");
+                usaCityList.Add("Washington");
+                usaCityList.Add("Florida");
+
+                var cityPicker = new Picker { Title = "Pick a City", TextColor = Color.BlueViolet, FontSize = 25 };
+                picker.ItemsSource = usaCityList;
+
             }
 
+            if (selectedIndex == 1)
+            {
+                var usaCityList = new List<string>();
+                usaCityList.Add("London");
+                usaCityList.Add("Manchester");
+                usaCityList.Add("Liverpool");
+                usaCityList.Add("Newcastle");
+
+                var cityPicker = new Picker { Title = "Pick a City", TextColor = Color.BlueViolet, FontSize = 25 };
+                picker.ItemsSource = usaCityList;
+
+            }
+
+
         }
-       
+
+        private string List()
+        {
+            throw new NotImplementedException();
+        }
 
         private static string NewMethod(Picker picker, int selectedItem)
         {
