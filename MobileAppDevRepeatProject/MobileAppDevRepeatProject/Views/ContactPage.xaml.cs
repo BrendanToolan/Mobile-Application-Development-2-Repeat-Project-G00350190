@@ -32,8 +32,31 @@ namespace MobileAppDevRepeatProject.Views
             var picker = new Picker { Title = "Pick a Country", TextColor = Color.BlueViolet, FontSize=25};
             picker.ItemsSource = countryList;
 
+            var countryNameLabel = new Label();
+            countryNameLabel.SetBinding(Label.TextProperty, new Binding("SelectedItem", source: picker));
+
+            var selectedIndex = 0;
+
+            void onPickerSelectedIndexChanged(object sender, EventArgs e)
+            {
+                var picker2 = (Picker)sender;
+                int selectedItem = picker.SelectedIndex;
+
+                //if statement
+                if (selectedIndex != -1)
+                {
+                    countryNameLabel.Text = NewMethod(picker, selectedItem);
+                }
+            }
 
         }
+       
+
+        private static string NewMethod(Picker picker, int selectedItem)
+        {
+            return (string)picker.ItemsSource[selectedItem];
+        }
+
 
         async void AddItem_Clicked(object sender, EventArgs e)
         {

@@ -29,6 +29,8 @@
                 </x:Array>
             </Picker.ItemsSource>
         </Picker>
+        <Label Text="{Binding Source={x:Reference picker}, Path=SelectedItem}"/>
+
     </StackLayout>
        
 </ContentPage>
