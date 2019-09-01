@@ -29,6 +29,8 @@ namespace MobileAppDevRepeatProject.ViewModels
                 await DataStore.AddItemAsync(newItem);
             });
 
+           
+
         }
 
         private Task<Func<object, bool>> ExecuteLoadItemsCommand()

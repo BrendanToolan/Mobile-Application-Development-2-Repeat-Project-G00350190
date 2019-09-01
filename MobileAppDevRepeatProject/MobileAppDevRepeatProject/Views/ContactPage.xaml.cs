@@ -49,31 +49,9 @@ namespace MobileAppDevRepeatProject.Views
                 }
 
             }
-            if (selectedIndex == 0)
-            {
-                var usaCityList = new List<string>();
-                usaCityList.Add("New York");
-                usaCityList.Add("Texas");
-                usaCityList.Add("Washington");
-                usaCityList.Add("Florida");
+            
 
-                var cityPicker = new Picker { Title = "Pick a City", TextColor = Color.BlueViolet, FontSize = 25 };
-                picker.ItemsSource = usaCityList;
-
-            }
-
-            if (selectedIndex == 1)
-            {
-                var usaCityList = new List<string>();
-                usaCityList.Add("London");
-                usaCityList.Add("Manchester");
-                usaCityList.Add("Liverpool");
-                usaCityList.Add("Newcastle");
-
-                var cityPicker = new Picker { Title = "Pick a City", TextColor = Color.BlueViolet, FontSize = 25 };
-                picker.ItemsSource = usaCityList;
-
-            }
+           
 
 
         }
@@ -94,7 +72,22 @@ namespace MobileAppDevRepeatProject.Views
             await Navigation.PushModalAsync(new NavigationPage(new NewItemPage()));
         }
 
-
+        private void Picker_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int index = picker.SelectedIndex;
+            if(index == 0)
+            {
+                countryLabel.Text = "America";
+            }
+            if (index == 1)
+            {
+                countryLabel.Text = "England";
+            }
+            if (index == 2)
+            {
+                countryLabel.Text = "France";
+            }
+        }
     }
 
     

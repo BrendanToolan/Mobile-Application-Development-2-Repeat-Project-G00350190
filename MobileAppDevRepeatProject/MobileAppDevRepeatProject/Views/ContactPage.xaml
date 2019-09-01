@@ -17,7 +17,7 @@
     
     
     <StackLayout>
-        <Picker x:Name="picker"
+        <Picker x:Name="picker" SelectedIndexChanged="Picker_SelectedIndexChanged"
                     Title="Pick a Country"
                     TextColor="BlueViolet">
             <Picker.ItemsSource>
@@ -29,9 +29,9 @@
                 </x:Array>
             </Picker.ItemsSource>
         </Picker>
-        <Label Text="{Binding Source={x:Reference picker}, Path=SelectedItem}"/>
+        <Label Text="N/A" x:Name="countryLabel"/>
 
-        <Picker x:Name="pickerCity"
+       <!-- <Picker x:Name="pickerCity"
                 Title="Pick a City"
                 TextColor="BlueViolet">
             <Picker.ItemsSource>
@@ -46,7 +46,7 @@
                     <x:String>Newcastle</x:String>
                 </x:Array>
             </Picker.ItemsSource>
-        </Picker>
+        </Picker>-->
 
     </StackLayout>
        
