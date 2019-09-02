@@ -18,13 +18,13 @@ namespace MobileAppDevRepeatProject.Views
   
     public partial class ItemsPage : ContentPage
     {
-        HomeViewModel viewModel;
+        InfoPageViewModel viewModel;
 
         public ItemsPage()
         {
             InitializeComponent();
-
-            BindingContext = viewModel = new HomeViewModel();
+            //Conects to the viewModel
+            BindingContext = viewModel = new InfoPageViewModel();
         }
 
         async void OnItemSelected(object sender, SelectedItemChangedEventArgs args)

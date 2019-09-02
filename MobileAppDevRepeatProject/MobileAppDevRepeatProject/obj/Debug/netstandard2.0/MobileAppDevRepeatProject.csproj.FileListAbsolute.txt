@@ -13,5 +13,5 @@ C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\
 C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject\obj\Debug\netstandard2.0\MobileAppDevRepeatProject.dll
 C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject\obj\Debug\netstandard2.0\MobileAppDevRepeatProject.pdb
 C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject\obj\Debug\netstandard2.0\MobileAppDevRepeatProject.csprojAssemblyReference.cache
-C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
 C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject\obj\Debug\netstandard2.0\Views\HomeInfoPage.xaml.g.cs
+C:\Users\btool\source\repos\MobileAppDevRepeatProject\MobileAppDevRepeatProject\MobileAppDevRepeatProject\obj\Debug\netstandard2.0\Views\InforPage.xaml.g.cs

@@ -24,6 +24,7 @@ namespace MobileAppDevRepeatProject.ViewModels
 
             MessagingCenter.Subscribe<NewItemPage, Item>(this, "AddItem", async (obj, item) =>
             {
+                //Code that lets the use add info onto the app
                 var newItem = item as Item;
                 Items.Add(newItem);
                 await DataStore.AddItemAsync(newItem);

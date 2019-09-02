@@ -8,12 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("MobileAppDevRepeatProject.Views.HomePage.xaml", "Views/HomePage.xaml", typeof(global::MobileAppDevRepeatProject.Views.ItemsPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("MobileAppDevRepeatProject.Views.InforPage.xaml", "Views/InforPage.xaml", typeof(global::MobileAppDevRepeatProject.Views.ItemsPage))]
 
 namespace MobileAppDevRepeatProject.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\HomePage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\InforPage.xaml")]
     public partial class ItemsPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

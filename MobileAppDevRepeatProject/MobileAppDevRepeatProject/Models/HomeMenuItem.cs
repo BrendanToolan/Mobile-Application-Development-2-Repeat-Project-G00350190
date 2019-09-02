@@ -6,8 +6,9 @@ namespace MobileAppDevRepeatProject.Models
 {
     public enum MenuItemType
     {
+        //setting up the views for the menu
         HomeInfoPage,
-        Home
+        InfoPage
     }
     public class HomeMenuItem
     {

@@ -15,14 +15,15 @@ namespace MobileAppDevRepeatProject.Views
             InitializeComponent();
 
             MasterBehavior = MasterBehavior.Popover;
-
-            MenuPages1.Add((int)MenuItemType.Home, (NavigationPage)Detail);
+            //set up the first place we will see
+            MenuPages1.Add((int)MenuItemType.InfoPage, (NavigationPage)Detail);
         }
 
         public Dictionary<int, NavigationPage> MenuPages1 { get; set; } = new Dictionary<int, NavigationPage>();
 
         public async Task NavigateFromMenu(int id)
         {
+            //if statement to switch between pages
             if (!MenuPages1.ContainsKey(id))
             {
                 switch (id)
@@ -31,7 +32,7 @@ namespace MobileAppDevRepeatProject.Views
                     case (int)MenuItemType.HomeInfoPage:
                         MenuPages1.Add(id, new NavigationPage(new HomeInfoPage()));
                         break;
-                    case (int)MenuItemType.Home:
+                    case (int)MenuItemType.InfoPage:
                         MenuPages1.Add(id, new NavigationPage(new ItemsPage()));
                         break;
 

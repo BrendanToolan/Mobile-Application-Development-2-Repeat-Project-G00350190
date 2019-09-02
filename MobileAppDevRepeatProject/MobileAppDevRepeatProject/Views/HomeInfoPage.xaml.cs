@@ -22,9 +22,10 @@ namespace MobileAppDevRepeatProject.Views
         {
             
             InitializeComponent();
-
+            //connectd this view to the view model
             BindingContext = viewModel = new HomeInfoViewModel();
 
+            //picker var and also populated
             var countryList = new List<string>();
             countryList.Add("America");
             countryList.Add("England");
@@ -34,9 +35,11 @@ namespace MobileAppDevRepeatProject.Views
             countryList.Add("Germany");
             countryList.Add("Netherlands");
 
+            //variable that will display "Pick a Country" on the picker
             var picker = new Picker { Title = "Pick a Country", TextColor = Color.BlueViolet, FontSize=25};
             picker.ItemsSource = countryList;
 
+            //Displays the name
             var countryNameLabel = new Label();
             countryNameLabel.SetBinding(Label.TextProperty, new Binding("SelectedItem", source: picker));
 
@@ -76,6 +79,8 @@ namespace MobileAppDevRepeatProject.Views
         private void Picker_SelectedIndexChanged(object sender, EventArgs e)
         {
             int index = picker.SelectedIndex;
+            //Various If Statements that will display information based on what was picked from the picker
+
             if(index == 0)
             {
                 

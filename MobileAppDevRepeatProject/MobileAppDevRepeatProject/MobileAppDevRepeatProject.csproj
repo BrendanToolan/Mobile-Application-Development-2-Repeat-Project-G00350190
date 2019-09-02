@@ -18,8 +18,8 @@
     <Compile Update="Views\HomeInfoPage.xaml.cs">
       <DependentUpon>HomeInfoPage.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Views\HomePage.xaml.cs">
-      <DependentUpon>HomePage.xaml</DependentUpon>
+    <Compile Update="Views\InforPage.xaml.cs">
+      <DependentUpon>InforPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 

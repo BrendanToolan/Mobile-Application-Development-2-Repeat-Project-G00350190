@@ -18,8 +18,8 @@ namespace MobileAppDevRepeatProject.Views
 
             menuItems = new List<HomeMenuItem>
             {
-                new HomeMenuItem {Id = MenuItemType.HomeInfoPage, Title="HomeInfoPage" },
-                new HomeMenuItem {Id = MenuItemType.Home, Title="Home"}
+                new HomeMenuItem {Id = MenuItemType.HomeInfoPage, Title="Home Page" },
+                new HomeMenuItem {Id = MenuItemType.InfoPage, Title="Additional Info added by users"}
             };
 
             ListViewMenu.ItemsSource = menuItems;
