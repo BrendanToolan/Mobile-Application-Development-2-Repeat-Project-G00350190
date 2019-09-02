@@ -19,8 +19,9 @@ namespace MobileAppDevRepeatProject.Views
 
             Item = new Item
             {
-                Name = "Item name",
-                Description = "This is an item description.",
+                Name = "Country Name",
+                Leaders = "This is an Leaders description.",
+                landmarks = "This is a landmark description"
             };
 
             BindingContext = this;

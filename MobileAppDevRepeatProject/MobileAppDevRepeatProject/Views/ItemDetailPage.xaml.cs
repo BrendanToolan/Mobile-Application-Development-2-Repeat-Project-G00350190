@@ -27,7 +27,9 @@ namespace MobileAppDevRepeatProject.Views
             var item = new Item
             {
                 Name = "Item 1",
-                Description = "This is an item description."
+                Leaders = "This is an item description.",
+                landmarks="This is a Landmark description"
+                
             };
 
             viewModel = new ItemDetailViewModel(item);

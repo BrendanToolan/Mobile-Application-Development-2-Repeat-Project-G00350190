@@ -11,14 +11,16 @@ using Xamarin.Forms.Xaml;
 namespace MobileAppDevRepeatProject.Views
 {
 
-
+    
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class HomeInfoPage : ContentPage
     {
         HomeInfoViewModel viewModel;
+        
 
         public HomeInfoPage()
         {
+            
             InitializeComponent();
 
             BindingContext = viewModel = new HomeInfoViewModel();

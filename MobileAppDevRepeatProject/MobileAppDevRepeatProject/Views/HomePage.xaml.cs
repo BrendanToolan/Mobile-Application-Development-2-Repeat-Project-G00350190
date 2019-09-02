@@ -13,7 +13,9 @@ using MobileAppDevRepeatProject.ViewModels;
 
 namespace MobileAppDevRepeatProject.Views
 {
+
     [XamlCompilation(XamlCompilationOptions.Compile)]
+  
     public partial class ItemsPage : ContentPage
     {
         HomeViewModel viewModel;
